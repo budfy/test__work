@@ -1,0 +1,15 @@
+@media screen and (max-width: 840px) {
+  .popular__slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .popular__slide {
+      width: 50%;
+
+      &:nth-child(n+5) {
+        display: none;
+      }
+    }
+  }
+}

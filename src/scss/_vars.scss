@@ -1,0 +1,19 @@
+$rose: #F94877;
+$darkRose: #FC104F;
+$red: #F44336;
+$lightGrey: #828282;
+$grey: #A0A0A0;
+$darkGrey: #222222;
+$border: #C4C4C4;
+$olive:#BCBC40;
+
+@mixin vertCenter {
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+@mixin bgImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
